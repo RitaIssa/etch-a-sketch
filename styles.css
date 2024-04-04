@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 120px;
+}
+
+h6{
+  font-size: 50px;
+}
+
+.btn{
+  font-size: 50px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 800px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  align-items: center;
+  margin-top: 20px
+}
+
+.board{
+  width: 1250px;
+  height: 1250px;
+  display: grid;
+  border: 1px solid black;
+}
